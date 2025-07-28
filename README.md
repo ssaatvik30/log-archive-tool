@@ -13,7 +13,7 @@ A bash script to archive and compress logs.
     ```
 3. **Execute the script or place the script in /usr/local/bin/**
     ```
-    ./log-archive.sh <log_directory> <destination_direcctory>
-
+    ./log-archive.sh <log_directory> <destination_directory>
+    ```	
 This project is part of [roadmap.sh](https://roadmap.sh/projects/log-archive-tool) DevOps projects.
 
