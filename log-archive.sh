@@ -4,7 +4,7 @@ red=$(tput setaf 1)
 reset=$(tput sgr0)
 date=$(date +"%Y%m%d_%H%M%S")
 
-if [ -n "$#" ]
+if [ -z "$1" ]
 then 
 	echo "${red}Error!${reset} No arguments provided."
 else
